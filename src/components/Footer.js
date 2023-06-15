@@ -4,8 +4,8 @@ const Footer = () => (
     <div className="FooterStuff">
         <footer>
             <p>Made with 💖</p>
-            <a href="https://github.com/thossain30"><img src={github}></img></a>
-            <a class="linkedin" href="https://www.linkedin.com/in/tamjid-hossain-550060192/" ><img src={linkedin}></img></a>
+            <a href="https://github.com/thossain30" className="social"><img src={github}></img></a>
+            <a href="https://www.linkedin.com/in/tamjid-hossain-550060192/" className="social"><img src={linkedin}></img></a>
         </footer>
     </div>
 );
