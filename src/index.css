@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
 :root {
   --cream: #e5e8b6;
   --ashgray: #b4c4ae;
@@ -35,6 +35,17 @@ header {
 
 footer {
   font-size: 1.75em;
+}
+
+h1, h2, h3 {
+  color: var(--coolgray);
+  background-color: var(--ashgray);
+}
+.logo-img:hover {
+  /* to black */
+  filter: invert(1);
+  /* or to blue */
+  filter: invert(0.5) sepia(0.7) saturate(3) hue-rotate(175deg);
 }
 
 .nav-item {
