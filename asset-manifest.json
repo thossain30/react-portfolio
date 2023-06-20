@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.66236e2e.css",
+    "main.js": "/react-portfolio/static/js/main.7e1ec6f9.js",
+    "static/media/pethubprev.png": "/react-portfolio/static/media/pethubprev.f2c6efb6a6dde5acf279.png",
+    "static/media/IMG_1909.png": "/react-portfolio/static/media/IMG_1909.8eb9d0437121a23870cb.png",
+    "static/media/techblogpreview.png": "/react-portfolio/static/media/techblogpreview.283660a32891f9e7a481.png",
+    "static/media/weatherPrev.png": "/react-portfolio/static/media/weatherPrev.90bc8d2c64ed0915a820.png",
+    "static/media/githubicon.svg": "/react-portfolio/static/media/githubicon.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/linkedinicon.svg": "/react-portfolio/static/media/linkedinicon.e9b8df20d092b20af087c400014ff4c8.svg",
+    "main.66236e2e.css.map": "/react-portfolio/static/css/main.66236e2e.css.map",
+    "main.7e1ec6f9.js.map": "/react-portfolio/static/js/main.7e1ec6f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66236e2e.css",
+    "static/js/main.7e1ec6f9.js"
+  ]
+}
