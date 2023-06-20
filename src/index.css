@@ -6,13 +6,8 @@
   --coolgray: #7d869c;
   --lapislazuli: #475b8e;
   --asparagus: #7EB06C;
-    /* --cream: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --cream: #fafafa;
-  --dark: #B84A62;
-  --darker: #111111;
-  --error: rgb(228, 46, 1); */
+  --skyblue: #77d4e4;
+  --magenta: #C639C6;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -74,7 +69,14 @@ h1, h2, h3 {
 .nav {
   display: flex;
   justify-content: space-evenly;
-} 
+}
+
+
+.AboutMe {
+  display: inline-flex;
+  column-gap: 2em;
+  margin: 1.5em;
+}
 
 
 main {
@@ -150,9 +152,24 @@ a {
   /* font-weight: bold; */
 }
 
-a:hover {
+
+
+.nav-tabs a:hover {
   text-decoration: underline;
+  color: var(--cream);
+  transition: 0.1s;
 }
+
+.card-text :hover {
+  color: var(--skyblue);
+  transition: 0.3s;
+}
+
+.contactLink a:hover {
+  color: var(--magenta);
+  transition: 0.3s;
+}
+
 
 
 
