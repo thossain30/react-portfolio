@@ -3,6 +3,7 @@ import logo from '../../images/logoprev.png'
 import weather from '../../images/weatherPrev.png'
 import pet from '../../images/pethubprev.png'
 import blog from '../../images/techblogpreview.png'
+import pawnshop from '../../images/traderjunks.png'
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 import { Image, Card } from 'react-bootstrap';
@@ -34,6 +35,13 @@ const projects = [
       name: "Tech Blog",
       gitLink: 'https://github.com/thossain30/tech-blog',
       deployLink: 'https://tech-blog-tzh.herokuapp.com/'
+    },
+    {
+      id: 4,
+      image: pawnshop,
+      name: "Trader Junks",
+      gitLink: 'https://github.com/ishim0718/trader-junks',
+      deployLink: 'https://trader-junks-91f61916a1cf.herokuapp.com'
     }
   ];
 
